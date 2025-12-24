@@ -19,6 +19,6 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       },
-        base: "/", // Garante que os caminhos sejam absolutos na raiz
+      base: './',
     };
 });
